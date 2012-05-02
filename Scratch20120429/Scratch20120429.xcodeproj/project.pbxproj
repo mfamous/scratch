@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388B1B8F154E1D1600CCCDF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388B1B8E154E1D1600CCCDF1 /* UIKit.framework */; };
+		388B1B91154E1D1600CCCDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388B1B90154E1D1600CCCDF1 /* Foundation.framework */; };
+		388B1B93154E1D1600CCCDF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388B1B92154E1D1600CCCDF1 /* CoreGraphics.framework */; };
+		388B1B99154E1D1600CCCDF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 388B1B97154E1D1600CCCDF1 /* InfoPlist.strings */; };
+		388B1B9B154E1D1600CCCDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B1B9A154E1D1600CCCDF1 /* main.m */; };
+		388B1B9F154E1D1700CCCDF1 /* ScratchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B1B9E154E1D1700CCCDF1 /* ScratchAppDelegate.m */; };
+		388B1BA2154E1D1700CCCDF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388B1BA0154E1D1700CCCDF1 /* MainStoryboard.storyboard */; };
+		388B1BA5154E1D1700CCCDF1 /* ScratchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B1BA4154E1D1700CCCDF1 /* ScratchViewController.m */; };
+		388B1BAD154E1D1700CCCDF1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388B1BAC154E1D1700CCCDF1 /* SenTestingKit.framework */; };
+		388B1BAE154E1D1700CCCDF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388B1B8E154E1D1600CCCDF1 /* UIKit.framework */; };
+		388B1BAF154E1D1700CCCDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388B1B90154E1D1600CCCDF1 /* Foundation.framework */; };
+		388B1BB7154E1D1700CCCDF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 388B1BB5154E1D1700CCCDF1 /* InfoPlist.strings */; };
+		388B1BBA154E1D1700CCCDF1 /* Scratch20120429Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B1BB9154E1D1700CCCDF1 /* Scratch20120429Tests.m */; };
+		388B1BC5154E1E2600CCCDF1 /* ScratchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B1BC4154E1E2600CCCDF1 /* ScratchModel.m */; };
+		388B1BC6154E1E2600CCCDF1 /* ScratchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B1BC4154E1E2600CCCDF1 /* ScratchModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388B1BB0154E1D1700CCCDF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388B1B81154E1D1600CCCDF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388B1B89154E1D1600CCCDF1;
+			remoteInfo = Scratch20120429;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388B1B8A154E1D1600CCCDF1 /* Scratch20120429.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scratch20120429.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388B1B8E154E1D1600CCCDF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		388B1B90154E1D1600CCCDF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		388B1B92154E1D1600CCCDF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		388B1B96154E1D1600CCCDF1 /* Scratch20120429-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scratch20120429-Info.plist"; sourceTree = "<group>"; };
+		388B1B98154E1D1600CCCDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		388B1B9A154E1D1600CCCDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		388B1B9C154E1D1700CCCDF1 /* Scratch20120429-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scratch20120429-Prefix.pch"; sourceTree = "<group>"; };
+		388B1B9D154E1D1700CCCDF1 /* ScratchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchAppDelegate.h; sourceTree = "<group>"; };
+		388B1B9E154E1D1700CCCDF1 /* ScratchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchAppDelegate.m; sourceTree = "<group>"; };
+		388B1BA1154E1D1700CCCDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		388B1BA3154E1D1700CCCDF1 /* ScratchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchViewController.h; sourceTree = "<group>"; };
+		388B1BA4154E1D1700CCCDF1 /* ScratchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchViewController.m; sourceTree = "<group>"; };
+		388B1BAB154E1D1700CCCDF1 /* Scratch20120429Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scratch20120429Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388B1BAC154E1D1700CCCDF1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		388B1BB4154E1D1700CCCDF1 /* Scratch20120429Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scratch20120429Tests-Info.plist"; sourceTree = "<group>"; };
+		388B1BB6154E1D1700CCCDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		388B1BB8154E1D1700CCCDF1 /* Scratch20120429Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scratch20120429Tests.h; sourceTree = "<group>"; };
+		388B1BB9154E1D1700CCCDF1 /* Scratch20120429Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scratch20120429Tests.m; sourceTree = "<group>"; };
+		388B1BC3154E1E2600CCCDF1 /* ScratchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScratchModel.h; sourceTree = "<group>"; };
+		388B1BC4154E1E2600CCCDF1 /* ScratchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScratchModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388B1B87154E1D1600CCCDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1B8F154E1D1600CCCDF1 /* UIKit.framework in Frameworks */,
+				388B1B91154E1D1600CCCDF1 /* Foundation.framework in Frameworks */,
+				388B1B93154E1D1600CCCDF1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1BA7154E1D1700CCCDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1BAD154E1D1700CCCDF1 /* SenTestingKit.framework in Frameworks */,
+				388B1BAE154E1D1700CCCDF1 /* UIKit.framework in Frameworks */,
+				388B1BAF154E1D1700CCCDF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388B1B7F154E1D1600CCCDF1 = {
+			isa = PBXGroup;
+			children = (
+				388B1B94154E1D1600CCCDF1 /* Scratch20120429 */,
+				388B1BB2154E1D1700CCCDF1 /* Scratch20120429Tests */,
+				388B1B8D154E1D1600CCCDF1 /* Frameworks */,
+				388B1B8B154E1D1600CCCDF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388B1B8B154E1D1600CCCDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388B1B8A154E1D1600CCCDF1 /* Scratch20120429.app */,
+				388B1BAB154E1D1700CCCDF1 /* Scratch20120429Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388B1B8D154E1D1600CCCDF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388B1B8E154E1D1600CCCDF1 /* UIKit.framework */,
+				388B1B90154E1D1600CCCDF1 /* Foundation.framework */,
+				388B1B92154E1D1600CCCDF1 /* CoreGraphics.framework */,
+				388B1BAC154E1D1700CCCDF1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		388B1B94154E1D1600CCCDF1 /* Scratch20120429 */ = {
+			isa = PBXGroup;
+			children = (
+				388B1B9D154E1D1700CCCDF1 /* ScratchAppDelegate.h */,
+				388B1B9E154E1D1700CCCDF1 /* ScratchAppDelegate.m */,
+				388B1BA0154E1D1700CCCDF1 /* MainStoryboard.storyboard */,
+				388B1BC3154E1E2600CCCDF1 /* ScratchModel.h */,
+				388B1BC4154E1E2600CCCDF1 /* ScratchModel.m */,
+				388B1BA3154E1D1700CCCDF1 /* ScratchViewController.h */,
+				388B1BA4154E1D1700CCCDF1 /* ScratchViewController.m */,
+				388B1B95154E1D1600CCCDF1 /* Supporting Files */,
+			);
+			path = Scratch20120429;
+			sourceTree = "<group>";
+		};
+		388B1B95154E1D1600CCCDF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				388B1B96154E1D1600CCCDF1 /* Scratch20120429-Info.plist */,
+				388B1B97154E1D1600CCCDF1 /* InfoPlist.strings */,
+				388B1B9A154E1D1600CCCDF1 /* main.m */,
+				388B1B9C154E1D1700CCCDF1 /* Scratch20120429-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		388B1BB2154E1D1700CCCDF1 /* Scratch20120429Tests */ = {
+			isa = PBXGroup;
+			children = (
+				388B1BB8154E1D1700CCCDF1 /* Scratch20120429Tests.h */,
+				388B1BB9154E1D1700CCCDF1 /* Scratch20120429Tests.m */,
+				388B1BB3154E1D1700CCCDF1 /* Supporting Files */,
+			);
+			path = Scratch20120429Tests;
+			sourceTree = "<group>";
+		};
+		388B1BB3154E1D1700CCCDF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				388B1BB4154E1D1700CCCDF1 /* Scratch20120429Tests-Info.plist */,
+				388B1BB5154E1D1700CCCDF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388B1B89154E1D1600CCCDF1 /* Scratch20120429 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388B1BBD154E1D1700CCCDF1 /* Build configuration list for PBXNativeTarget "Scratch20120429" */;
+			buildPhases = (
+				388B1B86154E1D1600CCCDF1 /* Sources */,
+				388B1B87154E1D1600CCCDF1 /* Frameworks */,
+				388B1B88154E1D1600CCCDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scratch20120429;
+			productName = Scratch20120429;
+			productReference = 388B1B8A154E1D1600CCCDF1 /* Scratch20120429.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388B1BAA154E1D1700CCCDF1 /* Scratch20120429Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388B1BC0154E1D1700CCCDF1 /* Build configuration list for PBXNativeTarget "Scratch20120429Tests" */;
+			buildPhases = (
+				388B1BA6154E1D1700CCCDF1 /* Sources */,
+				388B1BA7154E1D1700CCCDF1 /* Frameworks */,
+				388B1BA8154E1D1700CCCDF1 /* Resources */,
+				388B1BA9154E1D1700CCCDF1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388B1BB1154E1D1700CCCDF1 /* PBXTargetDependency */,
+			);
+			name = Scratch20120429Tests;
+			productName = Scratch20120429Tests;
+			productReference = 388B1BAB154E1D1700CCCDF1 /* Scratch20120429Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388B1B81154E1D1600CCCDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 388B1B84154E1D1600CCCDF1 /* Build configuration list for PBXProject "Scratch20120429" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 388B1B7F154E1D1600CCCDF1;
+			productRefGroup = 388B1B8B154E1D1600CCCDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388B1B89154E1D1600CCCDF1 /* Scratch20120429 */,
+				388B1BAA154E1D1700CCCDF1 /* Scratch20120429Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388B1B88154E1D1600CCCDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1B99154E1D1600CCCDF1 /* InfoPlist.strings in Resources */,
+				388B1BA2154E1D1700CCCDF1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1BA8154E1D1700CCCDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1BB7154E1D1700CCCDF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		388B1BA9154E1D1700CCCDF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388B1B86154E1D1600CCCDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1B9B154E1D1600CCCDF1 /* main.m in Sources */,
+				388B1B9F154E1D1700CCCDF1 /* ScratchAppDelegate.m in Sources */,
+				388B1BA5154E1D1700CCCDF1 /* ScratchViewController.m in Sources */,
+				388B1BC5154E1E2600CCCDF1 /* ScratchModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1BA6154E1D1700CCCDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1BBA154E1D1700CCCDF1 /* Scratch20120429Tests.m in Sources */,
+				388B1BC6154E1E2600CCCDF1 /* ScratchModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388B1BB1154E1D1700CCCDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388B1B89154E1D1600CCCDF1 /* Scratch20120429 */;
+			targetProxy = 388B1BB0154E1D1700CCCDF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388B1B97154E1D1600CCCDF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388B1B98154E1D1600CCCDF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		388B1BA0154E1D1700CCCDF1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388B1BA1154E1D1700CCCDF1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		388B1BB5154E1D1700CCCDF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388B1BB6154E1D1700CCCDF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388B1BBB154E1D1700CCCDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		388B1BBC154E1D1700CCCDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388B1BBE154E1D1700CCCDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scratch20120429/Scratch20120429-Prefix.pch";
+				INFOPLIST_FILE = "Scratch20120429/Scratch20120429-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		388B1BBF154E1D1700CCCDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scratch20120429/Scratch20120429-Prefix.pch";
+				INFOPLIST_FILE = "Scratch20120429/Scratch20120429-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		388B1BC1154E1D1700CCCDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scratch20120429.app/Scratch20120429";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scratch20120429/Scratch20120429-Prefix.pch";
+				INFOPLIST_FILE = "Scratch20120429Tests/Scratch20120429Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		388B1BC2154E1D1700CCCDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scratch20120429.app/Scratch20120429";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scratch20120429/Scratch20120429-Prefix.pch";
+				INFOPLIST_FILE = "Scratch20120429Tests/Scratch20120429Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388B1B84154E1D1600CCCDF1 /* Build configuration list for PBXProject "Scratch20120429" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B1BBB154E1D1700CCCDF1 /* Debug */,
+				388B1BBC154E1D1700CCCDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388B1BBD154E1D1700CCCDF1 /* Build configuration list for PBXNativeTarget "Scratch20120429" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B1BBE154E1D1700CCCDF1 /* Debug */,
+				388B1BBF154E1D1700CCCDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388B1BC0154E1D1700CCCDF1 /* Build configuration list for PBXNativeTarget "Scratch20120429Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B1BC1154E1D1700CCCDF1 /* Debug */,
+				388B1BC2154E1D1700CCCDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388B1B81154E1D1600CCCDF1 /* Project object */;
+}
