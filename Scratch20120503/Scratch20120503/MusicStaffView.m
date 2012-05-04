@@ -23,7 +23,7 @@
 {
     for (int i=0; i < 11;i++) 
     {
-        if( i == 5 ) continue;
+        if( i == 5 ) continue; // space for middle C
         CGContextMoveToPoint(context, 10, y+i*10);
         CGContextAddLineToPoint(context, 310, y+i*10);
     }
@@ -40,17 +40,12 @@
     
     [self drawStaff:context atY:10];
 
-    
-
-    
 //    [[UIColor greenColor] setFill];
     [[UIColor blackColor] setStroke];
     
     CGContextDrawPath(context, kCGPathStroke);
     
     CGContextClosePath(context);
-    
-    // Drawing code
 }
 
 @end
