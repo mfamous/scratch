@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38249AF315536F0900B17EF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38249AF215536F0900B17EF0 /* UIKit.framework */; };
+		38249AF515536F0900B17EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38249AF415536F0900B17EF0 /* Foundation.framework */; };
+		38249AF715536F0900B17EF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38249AF615536F0900B17EF0 /* CoreGraphics.framework */; };
+		38249AFD15536F0900B17EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38249AFB15536F0900B17EF0 /* InfoPlist.strings */; };
+		38249AFF15536F0900B17EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249AFE15536F0900B17EF0 /* main.m */; };
+		38249B0315536F0900B17EF0 /* ScratchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B0215536F0900B17EF0 /* ScratchAppDelegate.m */; };
+		38249B0615536F0900B17EF0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38249B0415536F0900B17EF0 /* MainStoryboard.storyboard */; };
+		38249B0915536F0900B17EF0 /* ScratchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B0815536F0900B17EF0 /* ScratchViewController.m */; };
+		38249B1315536F6600B17EF0 /* MusicStaffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B1215536F6600B17EF0 /* MusicStaffView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38249AEE15536F0900B17EF0 /* Scratch20120503.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scratch20120503.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38249AF215536F0900B17EF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38249AF415536F0900B17EF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38249AF615536F0900B17EF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38249AFA15536F0900B17EF0 /* Scratch20120503-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scratch20120503-Info.plist"; sourceTree = "<group>"; };
+		38249AFC15536F0900B17EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38249AFE15536F0900B17EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38249B0015536F0900B17EF0 /* Scratch20120503-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scratch20120503-Prefix.pch"; sourceTree = "<group>"; };
+		38249B0115536F0900B17EF0 /* ScratchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchAppDelegate.h; sourceTree = "<group>"; };
+		38249B0215536F0900B17EF0 /* ScratchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchAppDelegate.m; sourceTree = "<group>"; };
+		38249B0515536F0900B17EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		38249B0715536F0900B17EF0 /* ScratchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchViewController.h; sourceTree = "<group>"; };
+		38249B0815536F0900B17EF0 /* ScratchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchViewController.m; sourceTree = "<group>"; };
+		38249B1115536F6600B17EF0 /* MusicStaffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicStaffView.h; sourceTree = "<group>"; };
+		38249B1215536F6600B17EF0 /* MusicStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicStaffView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38249AEB15536F0900B17EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38249AF315536F0900B17EF0 /* UIKit.framework in Frameworks */,
+				38249AF515536F0900B17EF0 /* Foundation.framework in Frameworks */,
+				38249AF715536F0900B17EF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38249AE315536F0900B17EF0 = {
+			isa = PBXGroup;
+			children = (
+				38249AF815536F0900B17EF0 /* Scratch20120503 */,
+				38249AF115536F0900B17EF0 /* Frameworks */,
+				38249AEF15536F0900B17EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38249AEF15536F0900B17EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38249AEE15536F0900B17EF0 /* Scratch20120503.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38249AF115536F0900B17EF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38249AF215536F0900B17EF0 /* UIKit.framework */,
+				38249AF415536F0900B17EF0 /* Foundation.framework */,
+				38249AF615536F0900B17EF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38249AF815536F0900B17EF0 /* Scratch20120503 */ = {
+			isa = PBXGroup;
+			children = (
+				38249B0115536F0900B17EF0 /* ScratchAppDelegate.h */,
+				38249B0215536F0900B17EF0 /* ScratchAppDelegate.m */,
+				38249B0415536F0900B17EF0 /* MainStoryboard.storyboard */,
+				38249B0715536F0900B17EF0 /* ScratchViewController.h */,
+				38249B0815536F0900B17EF0 /* ScratchViewController.m */,
+				38249AF915536F0900B17EF0 /* Supporting Files */,
+				38249B1115536F6600B17EF0 /* MusicStaffView.h */,
+				38249B1215536F6600B17EF0 /* MusicStaffView.m */,
+			);
+			path = Scratch20120503;
+			sourceTree = "<group>";
+		};
+		38249AF915536F0900B17EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38249AFA15536F0900B17EF0 /* Scratch20120503-Info.plist */,
+				38249AFB15536F0900B17EF0 /* InfoPlist.strings */,
+				38249AFE15536F0900B17EF0 /* main.m */,
+				38249B0015536F0900B17EF0 /* Scratch20120503-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38249AED15536F0900B17EF0 /* Scratch20120503 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38249B0C15536F0900B17EF0 /* Build configuration list for PBXNativeTarget "Scratch20120503" */;
+			buildPhases = (
+				38249AEA15536F0900B17EF0 /* Sources */,
+				38249AEB15536F0900B17EF0 /* Frameworks */,
+				38249AEC15536F0900B17EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scratch20120503;
+			productName = Scratch20120503;
+			productReference = 38249AEE15536F0900B17EF0 /* Scratch20120503.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38249AE515536F0900B17EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Scratch;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = famousfamily.com;
+			};
+			buildConfigurationList = 38249AE815536F0900B17EF0 /* Build configuration list for PBXProject "Scratch20120503" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38249AE315536F0900B17EF0;
+			productRefGroup = 38249AEF15536F0900B17EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38249AED15536F0900B17EF0 /* Scratch20120503 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38249AEC15536F0900B17EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38249AFD15536F0900B17EF0 /* InfoPlist.strings in Resources */,
+				38249B0615536F0900B17EF0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38249AEA15536F0900B17EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38249AFF15536F0900B17EF0 /* main.m in Sources */,
+				38249B0315536F0900B17EF0 /* ScratchAppDelegate.m in Sources */,
+				38249B0915536F0900B17EF0 /* ScratchViewController.m in Sources */,
+				38249B1315536F6600B17EF0 /* MusicStaffView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38249AFB15536F0900B17EF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38249AFC15536F0900B17EF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38249B0415536F0900B17EF0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38249B0515536F0900B17EF0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38249B0A15536F0900B17EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38249B0B15536F0900B17EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38249B0D15536F0900B17EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scratch20120503/Scratch20120503-Prefix.pch";
+				INFOPLIST_FILE = "Scratch20120503/Scratch20120503-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38249B0E15536F0900B17EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scratch20120503/Scratch20120503-Prefix.pch";
+				INFOPLIST_FILE = "Scratch20120503/Scratch20120503-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38249AE815536F0900B17EF0 /* Build configuration list for PBXProject "Scratch20120503" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38249B0A15536F0900B17EF0 /* Debug */,
+				38249B0B15536F0900B17EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38249B0C15536F0900B17EF0 /* Build configuration list for PBXNativeTarget "Scratch20120503" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38249B0D15536F0900B17EF0 /* Debug */,
+				38249B0E15536F0900B17EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38249AE515536F0900B17EF0 /* Project object */;
+}
