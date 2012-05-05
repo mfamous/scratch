@@ -10,4 +10,6 @@
 
 @interface MusicStaffView : UIView
 
+@property (nonatomic) CGPoint offset;
+
 @end

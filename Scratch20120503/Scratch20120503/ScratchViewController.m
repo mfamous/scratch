@@ -7,12 +7,24 @@
 //
 
 #import "ScratchViewController.h"
+#import "MusicStaffView.h"
 
 @interface ScratchViewController ()
+
+@property (nonatomic, weak) IBOutlet MusicStaffView *musicStaffView;
 
 @end
 
 @implementation ScratchViewController
+
+@synthesize musicStaffView = _musicStaffView;
+
+- (void)setMusicStaff:(MusicStaffView *)musicStaffView
+{
+    _musicStaffView = musicStaffView;
+    UIPanGestureRecognizer *pangr = [[UIPanGestureRecognizer alloc]initWithTarget:musicStaffView action:@selector(pan:)];
+    [_musicStaffView addGestureRecognizer:pangr];
+}
 
 - (void)viewDidLoad
 {
@@ -22,6 +34,7 @@
 
 - (void)viewDidUnload
 {
+    [self setMusicStaff:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
