@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MusicPhrase.h"
 
 @interface MusicStaffView : UIView
 
 @property (nonatomic) CGPoint offset;
+
+@property (nonatomic, strong) MusicPhrase *phrase;
 
 @end

@@ -7,7 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Music.h"
 
-@interface Pitch : NSObject
+@interface MusicNote : NSObject
+
+-(MusicNote*)init:(Pitch)pitch inOctave:(int)octave onBeat:(int)beat forDuration:(NoteDuration)duration withAccidental:(Accidental)accidental;
+
+@property (nonatomic) Pitch pitch;
+
+@property (nonatomic) Accidental accidental;
+
+@property (nonatomic) int octave; // 4 if C4, middle C
+
+@property (nonatomic) int beat;
+
+@property (nonatomic) NoteDuration duration;
 
 @end

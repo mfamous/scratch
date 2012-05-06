@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Music.h"
+
 
 @interface MusicStaffModel : NSObject
+
+@property (nonatomic) KeySignature keySignature;
 
 @end

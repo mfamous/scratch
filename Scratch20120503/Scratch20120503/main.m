@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ScratchAppDelegate.h"
+#import "MusicAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ScratchAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MusicAppDelegate class]));
     }
 }

@@ -6,24 +6,40 @@
 //  Copyright (c) 2012 FamousFamily.com. All rights reserved.
 //
 
-#import "ScratchViewController.h"
+#import "MusicController.h"
 #import "MusicStaffView.h"
+#import "MusicPhrase.h"
+#import "MusicNote.h"
 
-@interface ScratchViewController ()
+@interface MusicController ()
 
 @property (nonatomic, weak) IBOutlet MusicStaffView *musicStaffView;
 
 @end
 
-@implementation ScratchViewController
+@implementation MusicController
 
 @synthesize musicStaffView = _musicStaffView;
 
 - (void)setMusicStaff:(MusicStaffView *)musicStaffView
 {
     _musicStaffView = musicStaffView;
+    
     UIPanGestureRecognizer *pangr = [[UIPanGestureRecognizer alloc]initWithTarget:musicStaffView action:@selector(pan:)];
-    [_musicStaffView addGestureRecognizer:pangr];
+    [self.musicStaffView addGestureRecognizer:pangr];
+    
+    MusicPhrase *phrase = [[MusicPhrase alloc]init];
+    
+    // G-C Perfect 5th
+    [phrase addNote:[[MusicNote alloc] init:G inOctave:4 onBeat:1 forDuration:Whole withAccidental:Natural]];
+    [phrase addNote:[[MusicNote alloc] init:C inOctave:5 onBeat:1 forDuration:Whole withAccidental:Natural]];
+    
+
+    
+    
+    
+    
+    self.musicStaffView.phrase = phrase;
 }
 
 - (void)viewDidLoad

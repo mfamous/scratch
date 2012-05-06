@@ -12,13 +12,18 @@
 		38249AF715536F0900B17EF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38249AF615536F0900B17EF0 /* CoreGraphics.framework */; };
 		38249AFD15536F0900B17EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38249AFB15536F0900B17EF0 /* InfoPlist.strings */; };
 		38249AFF15536F0900B17EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249AFE15536F0900B17EF0 /* main.m */; };
-		38249B0315536F0900B17EF0 /* ScratchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B0215536F0900B17EF0 /* ScratchAppDelegate.m */; };
+		38249B0315536F0900B17EF0 /* MusicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B0215536F0900B17EF0 /* MusicAppDelegate.m */; };
 		38249B0615536F0900B17EF0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38249B0415536F0900B17EF0 /* MainStoryboard.storyboard */; };
-		38249B0915536F0900B17EF0 /* ScratchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B0815536F0900B17EF0 /* ScratchViewController.m */; };
+		38249B0915536F0900B17EF0 /* MusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B0815536F0900B17EF0 /* MusicController.m */; };
 		38249B1315536F6600B17EF0 /* MusicStaffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B1215536F6600B17EF0 /* MusicStaffView.m */; };
+		38249B451555E1F400B17EF0 /* MusicStaffModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B441555E1F400B17EF0 /* MusicStaffModel.m */; };
+		38249B491555E56900B17EF0 /* MusicNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B481555E56900B17EF0 /* MusicNote.m */; };
+		38249B4C1555E6C300B17EF0 /* MusicPhrase.m in Sources */ = {isa = PBXBuildFile; fileRef = 38249B4B1555E6C300B17EF0 /* MusicPhrase.m */; };
+		38249B4F1555EA5E00B17EF0 /* SPN_octave-names.png in Resources */ = {isa = PBXBuildFile; fileRef = 38249B4E1555EA5E00B17EF0 /* SPN_octave-names.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38016C621555FB460041DC74 /* MusicPhrase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPhrase.h; sourceTree = "<group>"; };
 		38249AEE15536F0900B17EF0 /* Scratch20120503.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scratch20120503.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38249AF215536F0900B17EF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38249AF415536F0900B17EF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -27,13 +32,20 @@
 		38249AFC15536F0900B17EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38249AFE15536F0900B17EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38249B0015536F0900B17EF0 /* Scratch20120503-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scratch20120503-Prefix.pch"; sourceTree = "<group>"; };
-		38249B0115536F0900B17EF0 /* ScratchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchAppDelegate.h; sourceTree = "<group>"; };
-		38249B0215536F0900B17EF0 /* ScratchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchAppDelegate.m; sourceTree = "<group>"; };
+		38249B0115536F0900B17EF0 /* MusicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicAppDelegate.h; sourceTree = "<group>"; };
+		38249B0215536F0900B17EF0 /* MusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicAppDelegate.m; sourceTree = "<group>"; };
 		38249B0515536F0900B17EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		38249B0715536F0900B17EF0 /* ScratchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchViewController.h; sourceTree = "<group>"; };
-		38249B0815536F0900B17EF0 /* ScratchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchViewController.m; sourceTree = "<group>"; };
+		38249B0715536F0900B17EF0 /* MusicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicController.h; sourceTree = "<group>"; };
+		38249B0815536F0900B17EF0 /* MusicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicController.m; sourceTree = "<group>"; };
 		38249B1115536F6600B17EF0 /* MusicStaffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicStaffView.h; sourceTree = "<group>"; };
 		38249B1215536F6600B17EF0 /* MusicStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicStaffView.m; sourceTree = "<group>"; };
+		38249B431555E1F400B17EF0 /* MusicStaffModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicStaffModel.h; sourceTree = "<group>"; };
+		38249B441555E1F400B17EF0 /* MusicStaffModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicStaffModel.m; sourceTree = "<group>"; };
+		38249B461555E3D500B17EF0 /* Music.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		38249B471555E56900B17EF0 /* MusicNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicNote.h; sourceTree = "<group>"; };
+		38249B481555E56900B17EF0 /* MusicNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicNote.m; sourceTree = "<group>"; };
+		38249B4B1555E6C300B17EF0 /* MusicPhrase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPhrase.m; sourceTree = "<group>"; };
+		38249B4E1555EA5E00B17EF0 /* SPN_octave-names.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SPN_octave-names.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 		38249AE315536F0900B17EF0 = {
 			isa = PBXGroup;
 			children = (
+				38249B4D1555EA2E00B17EF0 /* Notes */,
 				38249AF815536F0900B17EF0 /* Scratch20120503 */,
 				38249AF115536F0900B17EF0 /* Frameworks */,
 				38249AEF15536F0900B17EF0 /* Products */,
@@ -80,14 +93,21 @@
 		38249AF815536F0900B17EF0 /* Scratch20120503 */ = {
 			isa = PBXGroup;
 			children = (
-				38249B0115536F0900B17EF0 /* ScratchAppDelegate.h */,
-				38249B0215536F0900B17EF0 /* ScratchAppDelegate.m */,
+				38249B0115536F0900B17EF0 /* MusicAppDelegate.h */,
+				38249B0215536F0900B17EF0 /* MusicAppDelegate.m */,
 				38249B0415536F0900B17EF0 /* MainStoryboard.storyboard */,
-				38249B0715536F0900B17EF0 /* ScratchViewController.h */,
-				38249B0815536F0900B17EF0 /* ScratchViewController.m */,
+				38249B0715536F0900B17EF0 /* MusicController.h */,
+				38249B0815536F0900B17EF0 /* MusicController.m */,
 				38249AF915536F0900B17EF0 /* Supporting Files */,
 				38249B1115536F6600B17EF0 /* MusicStaffView.h */,
 				38249B1215536F6600B17EF0 /* MusicStaffView.m */,
+				38249B471555E56900B17EF0 /* MusicNote.h */,
+				38249B481555E56900B17EF0 /* MusicNote.m */,
+				38016C621555FB460041DC74 /* MusicPhrase.h */,
+				38249B4B1555E6C300B17EF0 /* MusicPhrase.m */,
+				38249B431555E1F400B17EF0 /* MusicStaffModel.h */,
+				38249B441555E1F400B17EF0 /* MusicStaffModel.m */,
+				38249B461555E3D500B17EF0 /* Music.h */,
 			);
 			path = Scratch20120503;
 			sourceTree = "<group>";
@@ -101,6 +121,14 @@
 				38249B0015536F0900B17EF0 /* Scratch20120503-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38249B4D1555EA2E00B17EF0 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				38249B4E1555EA5E00B17EF0 /* SPN_octave-names.png */,
+			);
+			name = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +185,7 @@
 			files = (
 				38249AFD15536F0900B17EF0 /* InfoPlist.strings in Resources */,
 				38249B0615536F0900B17EF0 /* MainStoryboard.storyboard in Resources */,
+				38249B4F1555EA5E00B17EF0 /* SPN_octave-names.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,9 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38249AFF15536F0900B17EF0 /* main.m in Sources */,
-				38249B0315536F0900B17EF0 /* ScratchAppDelegate.m in Sources */,
-				38249B0915536F0900B17EF0 /* ScratchViewController.m in Sources */,
+				38249B0315536F0900B17EF0 /* MusicAppDelegate.m in Sources */,
+				38249B0915536F0900B17EF0 /* MusicController.m in Sources */,
 				38249B1315536F6600B17EF0 /* MusicStaffView.m in Sources */,
+				38249B451555E1F400B17EF0 /* MusicStaffModel.m in Sources */,
+				38249B491555E56900B17EF0 /* MusicNote.m in Sources */,
+				38249B4C1555E6C300B17EF0 /* MusicPhrase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +314,7 @@
 				38249B0E15536F0900B17EF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

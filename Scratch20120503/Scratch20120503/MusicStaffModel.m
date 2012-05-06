@@ -8,6 +8,10 @@
 
 #import "MusicStaffModel.h"
 
+
+
 @implementation MusicStaffModel
+
+@synthesize keySignature = _keySignature;
 
 @end

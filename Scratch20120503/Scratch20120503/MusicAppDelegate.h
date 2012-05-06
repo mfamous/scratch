@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScratchAppDelegate : UIResponder <UIApplicationDelegate>
+@interface MusicAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

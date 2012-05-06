@@ -1,5 +1,5 @@
 //
-//  MusicPhrase.h
+//  Phrase.h
 //  Scratch20120503
 //
 //  Created by Famous Mark on 5/5/12.
@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "MusicNote.h"
+#import "Music.h"
 
-@interface MusicPhrase : NSObject
+@interface Foo : NSObject
 
 -(void) addNote:(MusicNote*)note;
 

@@ -1,44 +1,38 @@
 //
-//  MusicPhrase.m
+//  Phrase.m
 //  Scratch20120503
 //
 //  Created by Famous Mark on 5/5/12.
 //  Copyright (c) 2012 famousfamily.com. All rights reserved.
 //
 
-#import "MusicPhrase.h"
 #import "MusicNote.h"
 
-@interface MusicPhrase()
+//@interface MusicPhrase()
+//
+////@property (nonatomic, strong) NSMutableArray *contents;
+//
+//@end
 
-@property (nonatomic, strong) NSMutableArray *contents;
+@implementation Foo
 
-@end
-
-@implementation MusicPhrase
-
-@synthesize contents = _contents;
-
--(NSMutableArray*) contents
-{
-    if(!_contents) _contents = [[NSMutableArray alloc] init];
-    return _contents;
-}
-
--(void) addNote:(MusicNote*)note
-{
-    [self.contents addObject:note];
-}
-
--(void)clear
-{
-    [self.contents removeAllObjects];
-}
-
--(NSArray*)notes
-{
-    return [self.contents copy];
-}
+//@synthesize contents = _contents;
+//
+//-(NSMutableArray*) contents
+//{
+//    if(!_contents) _contents = [[NSMutableArray alloc] init];
+//    return _contents;
+//}
+//
+//-(void) addNote:(MusicNote*)note
+//{
+//    [self.contents addObject note];
+//}
+//
+//-(void)clear
+//{
+//    [self.contents removeAllObjects];
+//}
 
 @end
 

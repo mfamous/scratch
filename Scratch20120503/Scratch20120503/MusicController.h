@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScratchViewController : UIViewController
+@interface MusicController : UIViewController
 
 @end

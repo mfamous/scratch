@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 FamousFamily.com. All rights reserved.
 //
 
-#import "ScratchAppDelegate.h"
+#import "MusicAppDelegate.h"
 
-@implementation ScratchAppDelegate
+@implementation MusicAppDelegate
 
 @synthesize window = _window;
 
